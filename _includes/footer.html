@@ -16,6 +16,11 @@
 				<li><a href="{% if linkElement.permalink != null %} {{ linkElement.permalink | prepend: site.baseurl }} {% else %} {{ linkElement.link }} {% endif %}" {% if linkElement.link != null %}target="_blank"{% endif %}>{{ linkElement.text }}</a></li>
 				{% endfor %}
 			</ul>
+			<ul>
+				{% for textElement in block.texts %}
+				<li>{% if textElement.text != null %} {{ textElement.text }} {% endif %}</li>
+				{% endfor %}
+			</ul>
 		</div>
 		{% endfor %}
 	</div>
@@ -25,8 +30,8 @@
 				{% for social in site.socialLinks %}
 				<li>
 					<a href="{% if social.permalink != null %} {{ social.permalink | prepend: site.baseurl }} {% else %} {{ social.link }} {% endif %}" target="_blank">
-						<svg class="icon icon-{{ social.icon }}" viewBox="0 0 30 32">
-							<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social.icon }}"></use>
+						<svg class="icon fa-{{ social.icon }}" viewBox="0 0 30 32">
+							<!-- <use xlink:href="{{ site.baseurl }}/fonts/sprites/sprites.svg#icon-{{ social.icon }}"></use> -->
 						</svg>
 					</a>
 				</li>

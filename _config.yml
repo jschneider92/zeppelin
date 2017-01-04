@@ -10,249 +10,257 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "GDG DevFest Season 2014"
-email: "devfest@gdg.org.ua"
-description: "GDG DevFest is a set of events all around the world"
-baseurl: "/zeppelin"
-url: "https://gdg-x.github.io"
+title: "29. Heidelberger Symposium"
+email: "info@hcwk.de"
+description: "Studentisch organisierte Plattform zum interdisziplinären Austausch"
+baseurl: ""
+url: "https://heidelberger-symposium.de"
 permalink: "/blog/:title"
-googleAnalyticsTrackingId: "UA-43643469-5"
-googleAnalyticsSiteUrl: "gdg-x.github.io"
-siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+googleAnalyticsTrackingId: "UA-87159276-1"
+googleAnalyticsSiteUrl: "heidelberger-symposium.de"
+#siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
-organizerName: "GDG Lviv"
-organizerAlternateName: "Google Developer Group Lviv"
-organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "lviv@gdg.org.ua"
+organizerName: "HCWK"
+organizerAlternateName: "Heidelberger Club für Wirtschaft und Kultur e.V."
+organizerDescription: "Studentisch organisierter, gemeinnütziger Verein zur Förderung von Bildung"
+organizerEmail: "vorstand@hcwk.de"
 organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://lviv.gdg.org.ua/"
+organizerLink: "https://hcwk.de/"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
-twitterAccount: "@DevFest"
+metaKeywords: "conference, heidelberg, event, symposium, wissenschaft, bildung,"
+twitterAccount: "@HCWK"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "https://bit.ly/dfua-c4p"
-c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+c4pUrl: "#"
+c4sponsorsUrl: "#"
 
 
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/team/", text: "Team"}
- - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/hackathon/", text: "Hackathon"}
-bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
-rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {permalink: "/schedule/", text: "Programm"}
+ - {permalink: "/speakers/", text: "Referenten"}
+ - {permalink: "/team/", text: "Veranstalter"}
+ - {permalink: "/logistics/", text: "Logistik"}
+# - {permalink: "/hackathon/", text: "Hackathon"}
+#bottomNavigationLinks:
+# - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+#rightNavigationButtons:
+# - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
-typeoutFallback: "Season"
+heroTitle: "29. Heidelberger Symposium </br> <typeout>"
+eventDate: "11. Mai - 13. Mai, 2017"
+typeoutTextValues: '"", "Kunst", "Kultur", "Politik", "Gesellschaft", "Wissenschaft"'
+typeoutFallback: ""
 heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
- - {permalink: "/#tickets", text: "Buy tickets"}
+# - {link: "#", text: "Nimm teil."}
+ - {permalink: "/#tickets", text: "Kaufe Tickets"}
 
 # About Block
-aboutTitle: "About GDG DevFest"
+aboutTitle: "Über das Heidelberger Symposium"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "Podiumsdiskussionen", image: "podium.jpg", text: "Gesprächsrunden mit ausgewählten Diskutanten" }
+ - {title: "Vorträge", image: "vortrag.jpg", text: "Vorträge von herausragenden Menschen" }
+ - {title: "Kolloquinen", image: "kolloquium.jpg", text: "Nachfragen ausdrücklich erwünscht" }
+ - {title: "Workshop", image: "workshop.jpg", text: "Hands-on in kleinen Gruppen" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+ - {count: "1000", specialCharacter: "±", info: "Teilnehmer", detail: "aus der Region"}
+ - {count: "60", specialCharacter: "+", info: "Stunden", detail: "Kunst, Kultur, Politik, Gesellschaft und Wissenschaft"}
+ - {count: "40", specialCharacter: "+", info: "Referenten", detail: "aus dem In- und Ausland"}
+ - {count: "3", specialCharacter: "", info: "Tage", detail: "Getränke, Frühstück und Mittagessen im Festzelt"}
 
 # Latest News Block
-latestNewsTitle: "Latest news"
+latestNewsTitle: "Neuigkeiten"
 
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
-rockstarSpeakersCount: 4
-rockstarSpeakersTitle: "Rockstar speakers"
-rockstarSpeakersButtonText: "See all speakers"
+rockstarSpeakersCount: 5
+rockstarSpeakersTitle: "Rockstar Referenten"
+rockstarSpeakersButtonText: "Alle Referenten"
 
 # Location Block
 locationBlockTitle: "Location"
-eventLocationName: "Conference Hall"
-eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
-eventStreetAddress: "22 Teatral'na St"
-eventAddressLocality: "Lviv"
-eventAddressLocalityRegion: "Lvivska"
-eventPostalCode: "79000"
-eventAddressCountry: "Ukraine"
-eventStartTime: "2014-10-25T10:00"
+eventLocationName: "Neue Universität"
+#eventLocationLink: "#"
+eventStreetAddress: "Universitätsplatz"
+eventAddressLocality: "Heidelberg"
+eventAddressLocalityRegion: "Baden-Württemberg"
+eventPostalCode: "69117"
+eventAddressCountry: "Deutschland"
+eventStartTime: "2017-05-11T09:00"
 eventDoorTime: "09:00"
-eventEndTime: "2014-10-25T20:00"
-eventPlaceCoordinates: "49.843237, 24.028751"
-mapCenterCoordinates: "49.842537, 24.025701"
-mapMobileCenterCoordinates: "49.841620, 24.029411"
+eventEndTime: "2017-05-13T18:00"
+eventPlaceCoordinates: "49.410735, 8.706508"
+mapCenterCoordinates: "49.410735, 8.704028"
+mapMobileCenterCoordinates: "49.410735, 8.706508"
 
 # Venue Block
-venueBlockTitle: "Venue"
+venueBlockTitle: "Veranstaltungsort"
 venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
 venueSmallImage3: "venue_3.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueTitle: "Neue Universität, Heidelberg"
+venueFeatures: ["Aula", "Hörsaal 13", "Hörsaal 14"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "devfest"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+twitterHashTag: "hdsymposium"
+twitterFeed: "#"
 
 # Partners Block
-organizersTitle: "Organizers"
-partnersTitle: "Partners"
-partnersC4sponsorsButton: "Become a sponsor"
+#organizersTitle: "Organizers"
+partnersTitle: "Sponsoren"
+partnersC4sponsorsButton: "Werden Sie Sponsor"
 
-# Subscribe Block
-subscribeImage: "subscribe.jpg"
-subscribeTitle: "Subscribe for updates"
-subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
-subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+# # Subscribe Block
+# subscribeImage: "subscribe.jpg"
+# subscribeTitle: "Subscribe for updates"
+# subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
+# subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
 
 # Tickets Block
-ticketsTitle: "Pricetable"
-ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsTitle: "Tickets"
+ticketsInfo: "Ein Ticket berechtigt den Zugang zu allen Veranstaltungen sowie Speisen und Getränke im Festzelt"
 ticketsOffers:
  -
-  name: "Early Bird"
-  price: "350"
-  priceCurrency: "UAH"
-  ticketsNumber: "150"
-  ribbon: "-5%"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-25T10:00"
-  validThrough: "2014-09-30T23:59"
- -
-  name: "Last Chance"
-  price: "450"
-  priceCurrency: "UAH"
-  ticketsNumber: "100"
-  ribbon: "-20%"
+  name: "Normal"
+  price: "30"
+  priceCurrency: "EUR"
+  #ticketsNumber: "50"
+  buyButtonLink: "#"
+  buyButtonText: "Kaufen"
   featured: true
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-10-01T00:00"
-  validThrough: "2014-10-23T23:59"
-  disabled: true
+#  additionalInfo: "Nur in Verbindung mit gültigem Schüler-, Studenten-, oder Renternausweis."
+  ticketContentList: ["Zugang zu allen Veranstaltungen 🤓", "Bewirtung im Zelt 🍴 🍺", "Eintritt zur After Party 🎉"]
+  validFrom: "2017-03-11T10:00"
+  validThrough: "2017-05-13T23:59"
  -
-  name: "Student"
-  price: "200"
-  priceCurrency: "UAH"
-  ticketsNumber: "50"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-20T10:00"
-  validThrough: "2014-10-23T23:59"
-  soldOut: true
-  soldOutText: "Sold Out"
+  name: "Reduziert"
+  price: "17"
+  priceCurrency: "EUR"
+  #ticketsNumber: "50"
+  buyButtonLink: "#"
+  buyButtonText: "Kaufen"
+  featured: true
+  additionalInfo: "Nur in Verbindung mit gültigem Schüler-, Studenten-, oder Renternausweis"
+  ticketContentList: ["Zugang zu allen Veranstaltungen 🤓", "Bewirtung im Zelt 🍴 🍺", "Eintritt zur After Party 🎉", "Nur in Verbindung mit gültigem Schüler-, Studenten-, oder Renternausweis" ]
+  validFrom: "2017-03-11T10:00"
+  validThrough: "2017-05-13T23:59"
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
+ - {link: "https://twitter.com/hcwk", icon: "twitter"}
+ - {link: "https://facebook.com/heidelbergersymposium/", icon: "facebook"}
  - {permalink: "/feed.xml", icon: "rss"}
-footerBlocks:
- -
-  title: "Links"
-  links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
- -
-  title: "Contacts"
-  links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
- -
-  title: "FAQ"
-  links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
 
+footerBlocks:
+-
+  title: "Social"
+  links:
+   - {link: "https://facebook.com/heidelbergersymposium/", text: "facebook"}
+   - {link: "https://twitter.com/hcwk", text: "twitter"}
+   - {link: "https://www.instagram.com/symposium_hd/", text: "instagram"}
+-
+  title: "Kontakt"
+  links:
+   - {link: "mailto:info@hcwk.de", text: "info@hcwk.de"}
+   - {link: "tel:+496221707190", text: "Tel: +49 (0)6221 70 71 90"}
+   - {link: "fax:+496221707219", text: "Fax: +49 (0)6221 70 72 19"}
+-
+  title: "Adresse"
+  texts:
+   - {text: "Heidelberger Club für Wirtschaft und Kultur e.V."}
+   - {text: "Luisenstraße 3"}
+   - {text: "69117 Heidelberg"}
+-
+  title: "Legal"
+  links:
+  # - {permalink: "/cod/", text: "Code of Conduct"}
+   - {permalink: "/impressum/", text: "Impressum"}
+   - {permalink: "/datenschutz/", text: "Datenschutz"}
 # Blog
-blogTitle: "Latest news"
+blogTitle: "Neuigkeiten"
 blogCommentsEnabled: true
-discusShortName: "devfestua"
+discusShortName: "hdsymposium"
 
 # Speakers List Block
-showSessions: true
+showSessions: false
 
 # Team Block
-teamBlockTitle: "About us"
-aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
+teamBlockTitle: "Über uns"
+aboutUs: "<p>Der Heidelberger Club für Wirtschaft und Kultur e. V. (HCWK) ist eine unabhängige, überparteiliche und fachübergreifende Studenteninitiative, die 1988 mit dem Ziel gegründet wurde, die Ausbildung an den Universitäten durch Praxisbezug und interdisziplinären Austausch zu ergänzen. Zu diesem Zweck organisiert der Club jährlich ein mehrtägiges Forum zu einem aktuellen Thema von gesellschaftlicher Relevanz. </p>
+
+<p>In seinem 28-jährigen Bestehen hat sich das Symposium zu einem festen Bestandteil des akademischen Lebens der Stadt Heidelberg etabliert und leistet damit einen bedeutenden Beitrag zu einer lebendigen Universitätskultur.</p>
+
+<h6>Kultur und Wirtschaft – ein Paradoxon?</h6>
+
+<p>Unser Ziel ist es, diese beiden Begriffe in einen Dialog treten zu lassen. Es soll ein interdisziplinäres Forum für lebendige und kontroverse Debatten geschaffen werden, um Diskussionskultur zu pflegen und dem Bildungsideal vom ganzheitlichen Menschen näher zu kommen. Querdenken wird hier nicht als etwas Karrierehemmendes unterdrückt, sondern als konstruktiver Impuls geschätzt.</p>
+
+<p>Die Umsetzung des Symposiums ermöglicht es jedem Studenten, sein theoretisches Wissen mit einem Praxisbezug zu verbinden. Dabei ist die effektive Zusammenarbeit mit dem Team Voraussetzung und Herausforderung zugleich. Die Vorbereitung einer solchen Großveranstaltung beansprucht die beteiligten Organisatoren über ein ganzes Jahr und bindet sie zeitlich neben dem Studium erheblich ein. Die anfallenden Aufgaben decken ein breites Spektrum an verschiedensten Tätigkeiten und Einsatzgebieten ab, so dass jedes Mitglied ein auf die eigenen Interessen und Fähigkeiten abgestimmtes Aufgabenprofil finden kann: von der Programmkonzeption über PR-Arbeit und Spendenakquise, Referentenanwerbung und –betreuung, bis hin zum Zeltaufbau und der Durchführung der dreitägigen Veranstaltung im Konkreten. Mag die Mitarbeit für manchen Beteiligten durchaus eine Belastungsprobe sein, so ist bisher aber wohl noch jeder durch das Ergebnis entschädigt worden: nicht nur entlohnt das Gefühl, etwas Großartiges auf die Beine gestellt zu haben, es werden auch neue Freundschaften geknüpft, Fähigkeiten gestärkt, Neugier gestillt und Wissen erweitert.</p>
+
+<p>Als anerkannter allgemeinnütziger Verein wird seine Tätigkeit durch Spenden, den Verzicht der Referenten auf Honorare sowie das ehrenamtliche Engagement der Organisatoren getragen. Sowohl Förderer aus der Wirtschaft und dem Stiftungswesen als auch ein hochkarätig besetztes Kuratorium unterstützen den Club finanziell und ideell. Für sein Engagement wurde der HCWK von der Initiative „Deutschland – Land der Ideen“ als ein „Ausgewählter Ort 2008“ ausgezeichnet und mit dem Heidelberger Symposium 2010 in das Programm „Jugend in Aktion“ der Europäischen Union aufgenommen. Neben der Organisation der Symposien wurden über die Jahre zwei weitere Veranstaltungen entwickelt und inzwischen auch beide mehrfach durchgeführt: die Ausschreibung und Verleihung des Heidelberger Kunst- und Kulturpreises und die Durchführung des Heidelberger Berufsinformationstages.</p>"
 
 # Logistics Find Way Block
-findWayTitle: "Find your way here"
-findWayDistance: "Distance"
-findWayDriving: "DRIVING"
-findWayWalking: "WALKING"
-findWayBicycling: "BICYCLING"
-findWayTransit: "TRANSIT"
-findWayFindFlight: "Find Flight"
-logisticsMapCenterCoordinates: "49.056728, 3.117289"
-logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
+findWayTitle: ""
+findWayDistance: "Distanz"
+findWayDriving: "Auto"
+findWayWalking: "zu Fuß"
+findWayBicycling: "mit dem Rad"
+findWayTransit: "ÖPV"
+#findWayFindFlight: "Find Flight"
+logisticsMapCenterCoordinates: "49.410688, 8.222069"
+logisticsMapMobileCenterCoordinates: "49.410688, 8.222069"
 logisticsMapAutoDirections: false
 
 # Logistics Direction Details Block
 directionDetailsImage: "direction-details.jpg"
-directionDetailsTitle: "Get around Lviv"
+directionDetailsTitle: "In Heidelberg"
 directionDetailsCards:
- - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
- - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
- - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
-directionDetailsWideCards:
- -
-  title: "Questions?"
-  subCards:
-   -
-    title: "Hotels"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-   -
-    title: "Registration"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-   -
-    title: "Attendance Details"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+ - {title: "Vom Hauptbahnhof", information: 'Der Heidelberger Hauptbahnhof befindet sich im Westen der Stadt. Mit der Buslinie 32 gelangen Sie direkt zum Universitätsplatz. <a href="https://www.vrn.de/mng/#/XSLT_TRIP_REQUEST2?restriction=0&orig=Heidelberg, Hauptbahnhof&dest=Heidelberg, Universitätsplatz&isDeparture=true" target="_blank">Auskunft des VRN</a>.'}
+ - {title: "ÖPNV", information: 'Der VRN bedient mit den Buslinien 32 und 31 die <a href="https://www.vrn.de/mng/#/XSLT_TRIP_REQUEST2?restriction=0&dest=Heidelberg, Universitätsplatz&isDeparture=true" target="_blank">Haltestelle <i>Universitätsplatz</i> </a>'}
+# - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
+#directionDetailsWideCards:
+# -
+#  title: "Questions?"
+#  subCards:
+#   -
+#    title: "Hotels"
+#    links:
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+#   -
+#    title: "Registration"
+#    links:
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+#   -
+#    title: "Attendance Details"
+#    links:
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
 
 # Hackathon
 hackathonTitle: "Hackathon"
-enableHackathon: true
+enableHackathon: false
 
 # Hackathon About Block
 aboutHackathonTitle: "Meet our themes"
